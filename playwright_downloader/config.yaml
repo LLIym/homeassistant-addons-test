@@ -1,0 +1,27 @@
+name: "Playwright Downloader"
+slug: "playwright_downloader"
+version: "1.0.0"
+description: "Addon for downloading PDF bills via Playwright"
+arch:
+  - amd64
+  - aarch64
+  - armv7
+startup: services
+boot: auto
+init: false
+image: "lliym/playwright_downloader:1.0.0"
+map:
+  - share:rw
+ports:
+  8180/tcp: 8000
+webui: "http://[HOST]:[PORT:8180]"
+options:
+  url: "https://example.com/login"
+  username: "user"
+  password: "pass"
+  debug: false
+schema:
+  url: str
+  username: str
+  password: str
+  debug: bool
