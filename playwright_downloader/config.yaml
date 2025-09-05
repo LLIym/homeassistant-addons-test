@@ -9,7 +9,7 @@ arch:
 startup: services
 boot: auto
 init: false
-image: "docker.io/lliym/playwright-downloader:1.0.0"
+image: "lliym/playwright-downloader:1.0.0"
 map:
   - share:rw
 ports:
