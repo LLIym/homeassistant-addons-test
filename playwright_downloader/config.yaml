@@ -9,7 +9,7 @@ arch:
 startup: services
 boot: auto
 init: false
-image: "lliym/plwd:1.0.0"
+image: lliym/plwd:1.0.0
 map:
   - share:rw
 ports:
