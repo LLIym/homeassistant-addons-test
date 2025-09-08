@@ -1,6 +1,6 @@
 name: "Playwright Downloader"
 slug: "playwright_downloader"
-version: "1.0.8"
+version: "1.0.9"
 description: "Addon for downloading PDF bills via Playwright"
 arch:
   - amd64
@@ -9,7 +9,7 @@ arch:
 startup: services
 boot: auto
 init: false
-image: "docker.io/lliym/playwrightdownloader:1.0.0"
+image: "lliym/playwrightdownloader:1.0.0"
 map:
   - share:rw
 ports:
