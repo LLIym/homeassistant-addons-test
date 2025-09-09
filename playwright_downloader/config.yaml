@@ -13,8 +13,8 @@ image: lliym/plwd
 map:
   - share:rw
 ports:
-  8180/tcp: 8000
-webui: "http://[HOST]:[PORT:8180]"
+  8000/tcp: 8000
+webui: "http://[HOST]:[PORT:8000]"
 options:
   url: "https://example.com/login"
   username: "user"
