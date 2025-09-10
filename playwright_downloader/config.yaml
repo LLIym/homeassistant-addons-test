@@ -1,6 +1,6 @@
 name: "Playwright Downloader"
 slug: "playwright_downloader"
-version: "1.0.11"
+version: "1.0.12"
 description: "Addon for downloading PDF bills via Playwright"
 arch:
   - amd64
@@ -9,6 +9,7 @@ arch:
 startup: services
 boot: auto
 init: false
+full_access: true
 image: lliym/plwd
 map:
   - share:rw
